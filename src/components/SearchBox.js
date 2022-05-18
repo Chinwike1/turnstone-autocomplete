@@ -54,12 +54,12 @@ const SearchBox = () => {
       listboxIsImmutable={true}
       maxItems={6}
       noItemsMessage="We couldn't find any character that matches your search"
-      placeholder='Search for any character in the MCU'
+      placeholder='Search for any character in the MCU E.g. IronMan'
       listbox={listbox}
       styles={styles}
       Item={Item}
       plugins={[recentSearchesPlugin]}
-      text='Iron M'
+      // text='Iron M'
     />
   )
 }
