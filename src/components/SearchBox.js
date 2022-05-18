@@ -54,7 +54,7 @@ const SearchBox = () => {
       listboxIsImmutable={true}
       maxItems={6}
       noItemsMessage="We couldn't find any character that matches your search"
-      placeholder='Search for any character in the MCU E.g. IronMan'
+      placeholder='Search for any character in the MCU e.g. Iron Man'
       listbox={listbox}
       styles={styles}
       Item={Item}
